@@ -36,7 +36,7 @@ When the application is started, the micro:bit screen shows the letter 'R'.
 After that it  periodically checks for incoming data that is sent by the sensor micro:bit v2.
 When data is received, a led on the led screen is turned on briefly
 
-## computer - receiver (serial) and logger
+## Raspberry Pi - receiver (serial) and logger
 [hub_serial_read_and_process.py](hub_serial_read_and_process.py)
 
 This application receives its telemetry data over the serial port and logs it in a file called telemetry.log
