@@ -2,6 +2,12 @@
 
 This project uses two BBC micro:bits and one computer
 
+```text                  
+🌍 world <----sense---- Micro:bit -transmit-> Micro:bit -transmit-> Raspberry PI -log-> 📁
+         🌡 temperature     v2      (radio)              (serial)         
+         💡    light
+         🎤    sound
+```
 ## micro:bit v2 - sensor and transmitter (radio)
 
 [microbit_sense_and_send.py](microbit_sense_and_send.py)
@@ -16,9 +22,9 @@ After that it periodically senses:
 
 When pressing button A, the micro:bit led screen outputs sensor data
 
-- The first led brightness corresponds with temperature
-- The second led brightness corresponds with light level 
-- The third led brightness corresponds with sound level
+- The 1st led brightness corresponds with temperature
+- The 2nd led brightness corresponds with light level 
+- The 3rd led brightness corresponds with sound level
 
 Pressing button A again disables outputting to the led screen
 
